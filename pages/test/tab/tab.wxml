@@ -1,0 +1,1 @@
+<view class='game_point_me {{isDoudong?"doudong":""}}' bindtap='pointMe'></view>

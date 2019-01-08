@@ -1,0 +1,21 @@
+<template name = "bannerT">
+  <swiper-item class="banner" >
+      <image src="{{imgurl}}" data-activityType='{{activityType}}' data-relativeId='{{relativeId}}'                                   data-type='{{type}}' bindtap="openActivity" class="banner-image" />
+  </swiper-item>
+</template>
+
+<template name = "iconT">
+  <view class='imageindex'>
+    <image src="{{iconUrl}}" bindtap="bindViewTap" class="image" /><view class='rat'>{{text}}</view>
+  </view>
+</template>
+
+<template name="hotT">
+    <view class="newshou">
+      <text style='margin-left:10px;font-weight:bold'>热门活动</text>
+      <text style='font-weight:bold;font-size:12px;margin-left:220px;color:	#6495ED'>查看更多</text>
+       <image src="{{imgurl}}" class="image" /> 
+       <text style='margin-left:10px;font-size:14px;'>{{name}}</text> 
+      <view class='fgxcommon'></view>
+    </view>
+</template>

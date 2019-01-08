@@ -1,0 +1,27 @@
+.fgx {height: 1px;width: 100%; background: #F5F5F5;margin-top: 15px;}
+.fgxcommon {height: 10px;width: 100%; background: #F5F5F5;margin-top: 15px;}
+.fgxcommon1 {height: 10px;width: 100%; background: #F5F5F5;}
+
+.news{
+  display: flex; 
+  margin-top: 15px;
+}
+
+.rat4 {font-size: 14px;margin-top: 6px;}
+
+.pro2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 62%;
+}
+
+.image2 {
+  height: 80px;
+  width: 110px;
+}
+
+.rat7 {font-size: 12px;margin-top: 15px;}
+.rat6 {
+  float:right;
+  margin-right: 10px;
+}

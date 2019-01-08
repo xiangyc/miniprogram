@@ -1,0 +1,76 @@
+<!--index.wxml-->
+<!--轮播 -->
+<import src="../../template/banner.wxml"/>
+
+<view class="banner">
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" class="banners" interval="{{interval}}" duration="{{duration}}">
+    <!-- <template wx:for="{{bannerList}}" is="bannerT" data="{{...item}}"></template> -->
+     <block wx:for="{{bannerList}}" wx:key="{{item.id}}" wx:for-item="item">
+      <swiper-item class="banner" >
+          <image src="{{domain + item.imgurl}}" data-activityType='{{item.activityType}}' data-relativeId='{{item.relativeId}}'                 data-type='{{item.type}}' bindtap="openActivity" class="banner-image" />
+      </swiper-item>
+    </block> 
+</swiper>
+</view>
+
+<view class='pro'>
+    <template wx:for="{{lanmuList}}" is="iconT" data="{{...item}}" wx:key="{{item.id}}"></template>
+   <!-- <block wx:for="{{lanmuList}}">
+  <view class='imageindex'>
+    <image src="{{item.iconUrl}}" bindtap="bindViewTap" class="image" /><view class='rat'>{{item.text}}</view>
+  </view>
+  </block>  -->
+</view>
+<view class='fgx'></view>
+
+<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="2000">
+    <block wx:if="{{2<1}}" wx:for="{{msgList}}" wx:key="{{item.id}}">
+      <navigator url="/pages/index/index?title={{item.url}}" open-type="navigate">
+        <swiper-item>
+          <view class="swiper_item">{{item.title}}</view>
+        </swiper-item>
+      </navigator>
+    </block>
+</swiper>
+
+<!-- <view class='fgxcommon1'></view>
+<view class="newshou">
+
+  <text wx:if="{{activityType == 0 ? true:false}}" class="xxxx">新手专享</text>
+
+  <text wx:if="{{activityType > 0}}" class="xxxx">新手专享</text>
+  <text wx:elif="{{activityType < 0}}" class="xxxx">中手专享</text>
+  <text wx:else class="xxxx">老手专享</text> 
+
+  <image src="{{imgurl}}" data-id=""  bindtap="bindViewTap" class="image" />
+</view> -->
+
+<view class='fgxcommon'></view>
+<view class="jingxuan">
+  <text style='margin-left:10px;font-weight:bold;'>精选产品</text>
+  <block wx:for="{{proList}}" wx:key="{{item.id}}">
+  <view class='fgx'></view>
+  <view class='pro'>
+    <view class='pro1'>
+      <view class='rat1'>{{item.profitRate}}%</view><view class='rat2'>年化赠金</view>
+    </view>
+    <view class='pro2'>
+      <view class='rat3'>{{item.name}}</view><view class='rat4'>1克起购|按月发赠金</view>
+    </view>
+  </view>
+  </block>
+  <view class='fgx'></view>
+</view>
+
+<view class='fgxcommon1'></view>
+<view class="xgjs">
+  <text style='margin-left:10px;font-weight:bold'>相关介绍</text>
+  <view class="xgimage">
+    <image src="../../images/home/home-add-01.png" bindtap="bindViewTap" class="image1" />
+    <image src="../../images/home/home-add-02.png" bindtap="bindViewTap" class="image2" />
+  </view>
+</view>
+ <view class='fgxcommon'></view>
+ <view class='fgxcommon1'></view>
+
+ <button bindtap='phoneCall'>打电话</button>

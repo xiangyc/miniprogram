@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/buyGold/buyGold",
+    "pages/discover/discover",
+    "pages/my/my",
+    "pages/sendRed/sendRed",
+    "pages/activity/detail",
+    "pages/activity/news/detail",
+    "pages/activity/info/infoList",
+    "pages/member/register/register",
+    "pages/test/tab/tab",
+    "pages/activity/notice/detail",
+    "template/banner"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "金算子Test",
+    "enablePullDownRefresh": true,
+    "disableScroll": false,
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/index1.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/buyGold1.png",
+        "iconPath": "images/buyGold.png",
+        "pagePath": "pages/buyGold/buyGold",
+        "text": "买金"
+      },
+      {
+        "selectedIconPath": "images/red1.png",
+        "iconPath": "images/red.png",
+        "pagePath": "pages/sendRed/sendRed",
+        "text": "登录注册"
+      },
+      {
+        "selectedIconPath": "images/discover1.png",
+        "iconPath": "images/discover.png",
+        "pagePath": "pages/discover/discover",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "images/my1.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": false
+}

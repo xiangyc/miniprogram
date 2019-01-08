@@ -1,0 +1,8 @@
+<!--pages/activity/notice/detail.wxml-->
+<view class='text1'>
+  <text>{{notices.title}}</text>
+</view>
+
+<view class='date1'>
+  <text>{{publishTime}}</text>
+</view>

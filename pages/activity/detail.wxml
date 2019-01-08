@@ -1,0 +1,8 @@
+<!--pages/activity/detail.wxml-->
+<view class='text1'>
+  <text>{{activity.name}}</text>
+</view>
+
+<view class='date1'>
+  <text>{{createTime}}</text>
+</view>

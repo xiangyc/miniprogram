@@ -1,0 +1,98 @@
+.image{
+  width: 30px;
+  height: 32px;
+  margin-left: 12px;
+}
+.rat{
+  font-size: 14px;
+}
+
+.imageindex {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.swiper_container {
+  height: 80rpx;
+  width: 100%;
+  background-color: #FFE4E1;
+}
+
+.swiper_item {
+  font-size: 25rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.swiper{
+  width:100%;
+  height:300rpx
+}
+ 
+swiper image{ 
+   width:100%;
+   height:300rpx
+}
+
+.newshou {
+  height: 380rpx;
+  padding-top: 10px;
+}
+
+.newshou image{
+  height: 300rpx;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.jingxuan {
+  height: 555rpx;
+  padding-top: 10px;
+}
+
+.pro{
+  display: flex; 
+  margin-top: 15px;
+}
+
+.pro1 {
+  margin-right: 100px;
+  margin-left: 10px;
+}
+
+.fgx {height: 1px;width: 100%; background: #F5F5F5;margin-top: 15px;}
+.fgxcommon {height: 10px;width: 100%; background: #F5F5F5;margin-top: 15px;}
+.fgxcommon1 {height: 10px;width: 100%; background: #F5F5F5;}
+.rat1 {color: red;font-weight: bold;font-size: 22px;}
+.rat2 {font-size: 14px;}
+.rat3 {font-weight: bold;}
+.rat4 {font-size: 14px;margin-top: 4px;}
+
+.xgjs {
+  padding-top: 10px;
+}
+
+.xgimage{
+  display: flex; 
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.image1{
+  height: 110px;
+  margin-right: 10px;
+}
+.image2{
+  height: 110px;
+  margin-right: 10px;
+}
+
+.xxxx{
+  margin-left:10px;
+  font-weight:bold;
+}

@@ -1,0 +1,71 @@
+@import "../../template/banner.wxss";
+
+.fgx {height: 1px;width: 100%; background: #F5F5F5;margin-top: 15px;}
+.fgxcommon {height: 10px;width: 100%; background: #F5F5F5;margin-top: 15px;}
+.fgxcommon1 {height: 10px;width: 100%; background: #F5F5F5;}
+
+.pro{
+  display: flex; 
+  margin-top: 15px;
+}
+
+.pro1 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.image{
+  width: 30px;
+  height: 32px;
+  margin-left: 12px;
+}
+.rat{
+  font-size: 14px;
+}
+
+.imageindex {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.newshou {
+  height: 380rpx;
+  padding-top: 10px;
+}
+
+.newshou image{
+  height: 250rpx;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.image1{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+.news{
+  display: flex; 
+  margin-top: 15px;
+}
+
+.rat4 {font-size: 14px;margin-top: 6px;}
+
+.pro2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 62%;
+}
+.image2 {
+  height: 80px;
+  width: 110px;
+}
+
+.rat7 {font-size: 12px;margin-top: 15px;}
+.rat6 {
+  float:right;
+  margin-right: 10px;
+}

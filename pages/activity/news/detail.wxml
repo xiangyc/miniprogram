@@ -1,0 +1,16 @@
+<!--pages/activity/news/detail.wxml-->
+<view class='text1'>
+  <text>{{news.title}}</text>
+</view>
+
+<view class='date1'>
+  <text>{{publishTime}}</text>
+</view>
+
+<view class='img'>
+  <image src="{{imgurl}}" class="image" />
+</view>
+
+<view class='text2'>
+  <text>{{news.summary}}</text>
+</view>

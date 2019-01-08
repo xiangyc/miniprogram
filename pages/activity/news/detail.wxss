@@ -1,0 +1,16 @@
+.text1 {
+  font-weight: bold;font-size: 18px;padding: 10px;
+}
+
+.text2 {
+  font-size: 14px;padding: 10px;
+}
+
+.date1 {
+  font-size: 14px;margin-left: 10px;
+}
+
+.img {
+  margin-left: 25px;
+  margin-top: 20px;
+}

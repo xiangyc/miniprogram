@@ -1,0 +1,31 @@
+<import src="../../template/banner.wxml"/>
+
+<view class='fgx'></view>
+<view class='pro'>
+  <template wx:for="{{lanmuList}}" is="iconT" data="{{...item}}"></template> 
+</view>
+
+<view class='fgxcommon'></view>
+<template is="hotT" data="{{...hotData,imgurl}}"></template> 
+
+<view class='fgxcommon'></view>
+<view style='margin-top:15px;'>
+<text style='margin-left:10px;font-weight:bold'>新闻资讯</text>
+<text style='font-weight:bold;font-size:12px;margin-left:220px;color:	#6495ED' bindtap='showMore'>查看更多</text>
+<view class='fgx'></view>
+<block wx:for="{{newsList}}">
+<view class='news' bindtap="bindViewTap" data-id='{{item.id}}'>
+  <view class='pro2'>
+  <view class='rat4'>{{item.title}}</view>
+  <view class='rat7'>
+    <text class='rat5'>{{item.publishTime}}</text>
+    <text class='rat6'>{{item.source}}</text>
+  </view>
+  </view>
+  <image src="{{item.imgurl}}" bindtap="bindViewTap" class="image2" />
+</view>
+  <view class='fgx'></view>
+ </block>
+ </view>
+ <view class='fgxcommon'></view>
+ <view class='fgxcommon1'></view>

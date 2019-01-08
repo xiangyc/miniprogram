@@ -1,0 +1,10 @@
+@keyframes seconddiv{
+0% {transform: scale(1.4,1.4);}
+10% {transform: scale(1,1);}
+25% {transform: scale(1.2,1.2);}
+50% {transform: scale(1,1);}
+70% {transform: scale(1.2,1.2);}
+100% {transform: scale(1,1);}
+}
+.doudong{animation:1s seconddiv;}
+.game_point_me{width: 98rpx;height: 89rpx; background: url(https://game003.workshop.xmtcyx.com/images/game/game_point_me01.png)no-repeat;background-size: 100% 100%;position: absolute;top: 180rpx;right: 50rpx;}

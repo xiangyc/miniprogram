@@ -1,0 +1,72 @@
+<view class="product1">
+  <view style='margin-left:10px;font-weight:bold'><text>新手金</text><text class='textClass'>|</text><text>稳健性</text></view>
+  <view class='fgx'></view>
+  <block wx:for="{{newProList}}">
+  <view class='pro'>
+    <view class='pro1'>
+      <view class='rat1'>{{item.profitRate}}%</view><view class='rat2'>年化赠金</view>
+    </view>
+    <view class='pro2'>
+      <view class='rat3'>{{item.period}}天</view><view class='rat4'>1克起购|限购一次</view>
+    </view>
+  </view>
+  </block>
+  <view class='fgxcommon'></view>
+</view>
+
+<view class="product2">
+  <view style='margin-left:10px;font-weight:bold'><text>天天金</text><text class='textClass'>|</text><text>稳健性</text></view>
+  <view class='fgx'></view>
+  <block wx:for="{{dayProList}}">
+  <view class='pro'>
+    <view class='pro1'>
+      <view class='rat1'>{{item.profitRate}}%</view><view class='rat2'>年化赠金</view>
+    </view>
+    <view class='pro2'>
+      <view class='rat3'>随买随卖</view><view class='rat4'>1毫克起购|按日发赠金</view>
+    </view>
+  </view>
+  </block>
+  <view class='fgxcommon'></view>
+</view>
+
+<view class="product3">
+  <view style='margin-left:10px;font-weight:bold'><text>安心金</text><text class='textClass'>|</text><text>稳健性</text></view>
+  <view class='fgx'></view>
+  <block wx:for="{{anProList}}">
+  <view class='pro'>
+    <view class='pro1'>
+      <view class='rat1'>{{item.profitRate}}%</view><view class='rat2'>年化赠金</view>
+    </view>
+    <view class='pro2'>
+      <view class='rat3'>{{item.period}}天</view><view class='rat4'>1克起购|按月发赠金</view>
+    </view>
+  </view>
+  <view class='fgx'></view>
+  </block>
+</view>
+<view class='fgxcommon1'></view>
+<view class="product4">
+  <view style='margin-left:10px;font-weight:bold'><text>随心金</text><text class='textClass'>|</text><text>浮动性</text></view>
+  <view class='fgx'></view>
+  <block wx:for="{{suiProList}}">
+  <view class='pro'>
+    <view class='pro1'>
+      <view class='rat1'>{{item.profitRate}}%</view><view class='rat2'>年化赠金</view>
+    </view>
+    <view class='pro2'>
+      <view class='rat3'>随买随卖</view><view class='rat4'>1毫克起购|按日发赠金</view>
+    </view>
+  </view>
+  </block>
+  <view class='fgxcommon'></view>
+</view>
+
+<view class='pro'>
+  <image src="../../images/home/icon-mall.png" bindtap="bindViewTap" class="image1" />
+  <view class='pro2'>
+    <view style='font-size:18px;font-weight: bold;'>黄金商城</view><view class='rat4'>开启实物黄金新零售</view>
+  </view>
+</view>
+<view class='fgxcommon'></view>
+<view class='fgxcommon1'></view>

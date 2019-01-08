@@ -1,0 +1,15 @@
+.rat{
+  font-size: 14px;
+}
+
+.imageindex {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.image{
+  width: 30px;
+  height: 32px;
+  margin-left: 12px;
+}
+

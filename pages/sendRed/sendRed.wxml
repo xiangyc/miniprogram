@@ -1,0 +1,24 @@
+<view class='txt1'>
+    <text>你好</text>
+</view>
+<view class='txt2'>
+    <text>欢迎来到金算子，赶紧登录吧！</text>
+</view>
+<view class="container">
+    <form bindsubmit="formSubmit">
+        <view class="row">
+            <input type="text" name="mobile" placeholder="请输入你的手机号码" />
+        </view>
+        <view class="row">
+            <input type="password" name="password" placeholder="请输入登录密码" />
+        </view>
+        <view>
+            <button class="btn1" form-type="submit">登录</button>
+        </view>
+
+        <view style='margin-top:20px;' bindtap='register'>
+            <button class="btn" style='color:red'>注册送1088大礼包</button>
+        </view>
+
+    </form>
+</view>

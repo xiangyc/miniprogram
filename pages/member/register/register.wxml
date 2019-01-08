@@ -1,0 +1,26 @@
+<view class='txt1'>
+    <text>你好</text>
+</view>
+<view class='txt2'>
+    <text>欢迎来到金算子，赶紧注册吧！</text>
+</view>
+<view class="container">
+    <form bindsubmit="formSubmit">
+        <view class="row">
+            <input type="text" name="mobile" placeholder="请输入你的手机号码" bindinput="mobileInput"/>
+        </view>
+        <view class="row">
+            <input style="width:120px;" type="text" name="code" placeholder="请输入验证码" />
+            <button class='yzm' bindtap='sendSmsCode' style='color:#ffcc33'>获取验证码</button>
+        </view>
+        
+        <view class="row">
+            <input type="password" name="password" placeholder="请输入6-20位字母加数字的密码" />
+        </view>
+
+        <view style='margin-top:20px;'>
+            <button class="btn1" form-type="submit" style='color:red'>注册送1088大礼包</button>
+        </view>
+
+    </form>
+</view>
